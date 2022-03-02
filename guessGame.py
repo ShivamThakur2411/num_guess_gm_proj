@@ -17,5 +17,5 @@ while attemptCount<5:
 		print("CONGRATULATIONS, YOU WON!!")
 		break
 	if attemptCount==5 & guess!=number:
-		print("Sorry, you lost the game, the correct number was - ")
-		print(number)
+		print("Sorry, you lost the game, the correct number was - " + str(number))
+		break
